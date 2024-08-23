@@ -1,0 +1,28 @@
+^C:\USERS\TARIQ ALAM\DOWNLOADS\FLUTTER-TODO-APP-MASTER\FLUTTER-TODO-APP-MASTER\BUILD\WINDOWS\X64\CMAKEFILES\98762650D5DDBA8551D44DCBE96E4D8C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\Tariq Alam\Downloads\flutter-todo-app-master\flutter-todo-app-master" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Tariq Alam\Downloads\flutter-todo-app-master\flutter-todo-app-master\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Tariq Alam\Downloads\flutter-todo-app-master\flutter-todo-app-master" "FLUTTER_TARGET=C:\Users\Tariq Alam\Downloads\flutter-todo-app-master\flutter-todo-app-master\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Tariq Alam\Downloads\flutter-todo-app-master\flutter-todo-app-master\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TARIQ ALAM\DOWNLOADS\FLUTTER-TODO-APP-MASTER\FLUTTER-TODO-APP-MASTER\BUILD\WINDOWS\X64\CMAKEFILES\6B5B4FC42D49900C48ACE3E363553743\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TARIQ ALAM\DOWNLOADS\FLUTTER-TODO-APP-MASTER\FLUTTER-TODO-APP-MASTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Tariq Alam/Downloads/flutter-todo-app-master/flutter-todo-app-master/windows" "-BC:/Users/Tariq Alam/Downloads/flutter-todo-app-master/flutter-todo-app-master/build/windows/x64" --check-stamp-file "C:/Users/Tariq Alam/Downloads/flutter-todo-app-master/flutter-todo-app-master/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
